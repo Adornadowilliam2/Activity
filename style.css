@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+  /* =============Container for the box=============== */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+.grid-clamp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  /* ================================== */
+
+
+.container-child{
+    width: 100%;
+    height: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-color, .grid-input, .center{
+    display: block;
+    margin: auto;
+}
+.grid-input div{
+    margin: 10px;
+}
+
+#colorOdd, #colorEven{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+.content{
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button{
+    background-color: lightgreen;
+    border-radius: 25px;
+    color: black;
+    border: 2px solid black;
+    padding: 1px 10px;
+    margin: 1px 10px;
+}
+
